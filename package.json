@@ -1,11 +1,11 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
+    "name": "Utrosh-Launcher",
+    "preductname": "UTrosh Launcher",
     "version": "1.0.5",
     "description": "Launcher Mincraft custom (crack, premium)",
     "main": "src/app.js",
     "author": "Luuxis",
-    "url": "http://launcher.selvania.fr",
+    "url": "http://api.troshhost.fr",
     "engines": {
         "node": "16.x.x"
     },
