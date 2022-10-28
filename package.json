@@ -1,10 +1,10 @@
 {
     "name": "Utrosh-Launcher",
     "preductname": "UTrosh Launcher",
-    "version": "1.0.5",
+    "version": "1.0.0",
     "description": "Launcher Mincraft custom (crack, premium)",
     "main": "src/app.js",
-    "author": "Luuxis",
+    "author": "UTrosh",
     "url": "http://api.troshhost.fr",
     "engines": {
         "node": "16.x.x"
@@ -21,7 +21,8 @@
     "dependencies": {
         "electron-updater": "^5.0.1",
         "minecraft-java-core": "^2.4.1",
-        "node-fetch": "^2.6.7"
+        "node-fetch": "^2.6.7",
+        "shell": "^0.9.4"
     },
     "devDependencies": {
         "cross-env": "^7.0.3",
@@ -31,6 +32,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/UTrosh/ProjectRP-launcher.git"
     }
 }

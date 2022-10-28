@@ -24,6 +24,8 @@ class Home {
         this.initLaunch();
         this.initStatusServer();
         this.initBtn();
+        this.discordbtn()
+        this.websitebtn()
     }
 
     async initNews() {
@@ -85,6 +87,15 @@ class Home {
             // news.appendChild(blockNews);
         }
     }
+    async discordbtn() {
+    document.querySelector('.discord-btn').addEventListener('click', async() => {
+        require('electron').shell.openExternal("https://discord.gg/UpYmeKEGmT")
+    })}
+
+    async websitebtn() {
+        document.querySelector('.web-btn').addEventListener('click', async() => {
+            require('electron').shell.openExternal("https://api.troshhost.fr")
+        })}
 
     async initLaunch() {
         document.querySelector('.play-btn').addEventListener('click', async() => {
@@ -207,4 +218,5 @@ class Home {
         return { year: year, month: allMonth[month - 1], day: day }
     }
 }
+
 export default Home;

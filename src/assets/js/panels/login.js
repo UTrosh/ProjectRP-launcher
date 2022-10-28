@@ -189,8 +189,9 @@ class Login {
         let infoLogin = document.querySelector('.info-login')
         let loginBtn = document.querySelector(".login-btn")
         let mojangBtn = document.querySelector('.mojang')
-
-        mojangBtn.innerHTML = "Offline"
+        let passBtn = document.querySelector('.Pass')
+        passBtn.remove()
+        mojangBtn.innerHTML = "Version Crack"
 
         mojangBtn.addEventListener("click", () => {
             document.querySelector(".login-card").style.display = "none";
