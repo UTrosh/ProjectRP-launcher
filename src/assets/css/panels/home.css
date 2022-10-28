@@ -143,7 +143,7 @@
 .news-block {
     margin-bottom: 1rem;
     transition: opacity 1s;
-    opacity: .4;
+    opacity: .8;
 }
 
 .news-block:hover {
@@ -251,7 +251,7 @@
     background-color: #292929;
     border-radius: 10px;
     transition: opacity 1s;
-    opacity: .4;
+    opacity: .8;
 }
 
 .server:hover {
@@ -340,7 +340,7 @@
     background-color: #292929;
     border-radius: 10px;
     transition: opacity 1s;
-    opacity: .4;
+    opacity: .8;
 }
 
 .git:hover {
@@ -371,7 +371,7 @@
     background-color: #292929;
     border-radius: 10px;
     transition: opacity 1s;
-    opacity: .4;
+    opacity: .8;
     margin-block: -140px;
 }
 
