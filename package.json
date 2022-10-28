@@ -1,7 +1,7 @@
 {
-    "name": "Utrosh-Launcher",
-    "preductname": "UTrosh Launcher",
-    "version": "1.0.0",
+    "name": "ProjectRP-Launcher",
+    "preductname": "ProjectRP-Launcher",
+    "version": "1.0.6",
     "description": "Launcher Mincraft custom (crack, premium)",
     "main": "src/app.js",
     "author": "UTrosh",
